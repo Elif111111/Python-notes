@@ -1,0 +1,683 @@
+Bilgisayar nedir makine dili python dili nedir python kaydetme çalýþtýrma vs hýzlý geçtim. Biliyorum. Not almadým.
+Python yorumlayýcý bir dildir
+Options kýsmýnda show line numbers kýsmý uzun kodlar da hangi satýrda hata yaptýðýmýzý rahatlýkla bulmamýzý saðlar.
+File--- save-- kaydetmek
+Run--- çalýþtýrmak
+Syntax-- yazý biçimi
+: Söz dizim kuralý
+Ýnsan diline yakýn--- olanlar yüksek seviyeli diller
+Makine diline yakýn olanlar--- alçak seviyeli diller
+Python yüksek seviyeli bir dildir
+Uymamýz gereken belirli yazým kurallarý vardýr. Uyumazsan Eror veriyor. Ben bunu anlamadým der ve düzeltirsin
+Python anlaþýlýr, basit bir dildir.
+Deðiþkenler
+Deðiþken nedir? Bilgisayar biliminde niceliðin depolanabileceði bir yer, alan ifade eder
+Deðiþken-- deðiþebiliyor adý üstünde
+Python programlama dilinde deðiþkenlere isim verirken uyulmasý gereken kurallar
+1-Bir deðiþken isminin ilk karakteri ya harf ya da alt çizgi olmalýdýr. 
+Mesela 12A= 'kelime' ---- Syntax eror
+2-Bir deðiþken ismi içerisinde alt çizgi hariç boþluk veya diðer özel karakterler( nokta Virgül, soru iþareti, küçük, büyük,artý, eksi, çift týrnak, týrnak,boþluk,ünlem,yýldýz,ve,üst ok, parantezler, tilde,diyez...) bulunmamalýdýr. 
+3-Bir deðiþken ismi bir python komutu olamaz. Anahtar kelime
+4-Bir deðiþken isimlerinde Türkçe karakter kullanmamalýyýz. ( Türkçe karakterler ç, ð, ý, þ, ö, ü, ÇÐIÞÖÜ) 
+5-Bir deðiþken küçük harf ile isimlendirilirse ayný harfin büyüðü ile farklý bir deðiþken oluþturulabilir. Bu duruma dikkat edilmelidir ? (A=13 dedin mesela print(a) dedin mesela eror
+Deðiþkenleri birbirine aktarma:
+Normalde 
+A=3
+B=4
+C=A
+A=B
+B=C 
+A
+4
+B
+3
+Ya da 
+print (A) 
+4
+print (B) 
+3
+Python da kolay yol var :
+A, B=B, A
+Operatörler + - * / ?
+: Hesap makinesi uygulamasý
+: Ýþlem önceliði:
+Parantez içi
+Üs alma
+Çarpma
+Bölme
+Mod
+Toplama
+Çýkarma
+Python temel veri tipleri:
+int tam sayý tipi
+float ondalýklý sayý tipi
+bool doðru yanlýþ(iki durum) veri tipi
+str karakter tipi
+Giriþ birimleri: Fare, mouse, tarayýcý, mikrofon, optik okuyucu, webcam, klavye
+Çýkýþ birimleri:Ekran, yazýcý, hoparlör, kulaklýk, projeksiyon
+Giriþ-Çýkýþ  Birimleri: Dokunmatik ekran, HDD/Harici HDD, USB bellek, CD ve DVD
+Veri giriþ komutu input
+: input()
+Veri çýkýþý komutu: print ()
+: sep: Çýktý mesajýndaki karakterler arasýna ayraç koymak için kullanýlýr
+Koþul ifadeleri
+If: Tek koþula baðlý gerçekleþecek iþlemler için. 
+If else: Çift koþula baðlý gerçekleþecek iþlemler için. 
+Ýf  elif else: Çoklu koþula baðlý gerçekleþecek iþlemler için
+== Eþittir
+! = Eþit deðildir
+>Büyüktür
+<küçüktür
+>=Büyük eþittir
+<=küçük eþittir 
+Karþýlaþtýrma operatörleri
+Mantýksal operatörler
+and or not
+Tek þart ifadesi---if
+Eðer param yeterse  dondurma alacaðým
+elif --- Eðer param dondurmaya yetmeyip sodaya yeterde soda alacaðým
+: else--- Aksi halde sakýz alacaðým
+Koþul operatörler:
+Koþul içerisindeki verilerin birbiriyle karþýlaþtýrmasýnda kullanýlýr.
+Döngüler (Loop) 
+for döngü sayýsý önceden belirlenir
+While döngü sayýsý önceden belli olmayýp koþula baðlýdýr
+Döngüler
+for--- döngü sayýsý belirli
+while-- döngü sayýsý koþula baðlý
+Liste: Sýralý eleman dizisi
+Liste içerisindeki bir elemanýn olup olmadýðýný denetlemek için in --not in deðiþkenlerini kullanacaðýz
+return
+Yerel (lokal) Deðiþken: Fonksiyonlarda tanýmlanan deðiþkenler. 
+Genel(Global) Deðiþken: Fonksiyonun dýþýnda veya global kapsamda bildirilen bir deðiþken
+: Bir fonksiyonun içinde yine ayný fonksiyonu çaðýrýrsak bu öztekrarlý fonksiyon oluyor
+a='BTK'
+b='AKADEMÝ'
+c=a+b
+print(c)
+BTKAKADEMÝ
+bos=' '
+c=a+bos+b
+print(c)
+BTK AKADEMÝ
+
+S='PYTHON'
+
+
+S[:]
+'PYTHON'
+S[3:]
+'HON'
+S[:3]
+'PYT'
+S[1:5]
+'YTHO'
+S[1:6:3]
+'YO'
+S[::-1]
+'NOHTYP'
+
+
+yazi='Ptyhon'
+print(yazi)
+Ptyhon
+for x in range (1,6):
+    print(yazi[:-x]
+keliem=input('kelime giriniz..:')
+          
+
+print(kelime,'nin tersi',kelime[::-1],'dir')
+          
+    print(kelime,'nin tersi',kelime[::-1],'dir')
+
+if kelime==kelime[::-1]:
+          print(kelime,'bir palindromdur')
+          else:
+              
+
+print(kelime,'bir palindrom deðildir')
+
+    print(kelime,'bir palindrom deðildir')
+NameError: name 'kelime' is not defined
+#Dizi(Array):Ayný türden elemanlarýn oluþturduðu sýralý objeler
+#sayý Dizisi,karakter Dizisi,indis
+a=input('harf giriniz')
+harf giriniz5
+
+    L=[]
+    
+
+while True:
+    TC=int(input('TC gir..:'))
+    if TC in L:
+        i=L.index(TC)
+        print('Muayene sýrasý..:',i+1)
+        elif TC==0:
+            
+
+print(L[0],'TC numaralý hasta doktorun yanýna gidiniz')
+L.pop(0)
+L.append(TC)
+print('TC numaralý hasta sýraya alýndý')
+TC numaralý hasta sýraya alýndý
+
+
+
+Mevsim={'kýþ':1,'ilkbahar':2,'yaz':3,'sonbahar':4}
+S={}
+S=[1]='bir'
+SyntaxError: cannot assign to literal
+S[2]='iki'
+S[3]='üç'
+
+
+
+
+gun=input('Türkçe gün adý..:')
+Türkçe gün adý..:
+TrEn=['pazartesi':'monday}
+      
+SyntaxError: unterminated string literal (detected at line 1)
+print('ingilizcesi..:,end=' ')
+      
+SyntaxError: incomplete input
+print(TrEn.get(gun,'Bu kelime sözlükte yok!'))
+      
+Traceback (most recent call last):
+class Araba(marka):
+    model=marka
+    def metot(self):
+        self.marka='mercedes'
+
+        
+
+    class Araba(marka):
+
+
+
+def a():
+    pass
+
+class araba:
+    pass
+
+class hayvan(cins):
+dT=int(input('doðum tarihiniz:'))
+Yas=2023-dT
+print('Yasýnýz:',Yas)
+Python 3.12.0 (v3.12.0:0fb18b02c8, Oct  2 2023, 09:45:56) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
+Type "help", "copyright", "credits" or "license()" for more information.
+Not=int(input('notunuzu giriniz')
+        N
+        
+SyntaxError: incomplete input
+
+Not=int(input('notunuzu giriniz')
+
+        if Not>=50:
+        
+SyntaxError: incomplete input
+>>> Not=int(input('notunuzu giriniz')
+... 
+...         if not>=50:
+...         
+SyntaxError: '(' was never closed
+>>> Not=int(input('Notunuzu giriniz'))
+...         
+Notunuzu giriniz100
+>>> if Not>=50:
+...         print('baþarýlý')
+... 
+...         
+baþarýlý
+>>> else:
+...     
+SyntaxError: invalid syntax
+>>> else :
+...     
+SyntaxError: invalid syntax
+>>> Else:
+...     
+SyntaxError: incomplete input
+>>> else
+
+>>> else
+
+>>> else:
+...     
+
+>>> esswe:
+...
+if 5==5:
+ print('eþittir')
+
+a=25
+b=int(input('sayýyý tahmin et'))
+
+if a==b:
+      print('doðru bildiniz')
+
+else:
+          print('tekrar deneyiniz')
+
+
+Not=int(input('Notunuzu giriniz'))
+if Not >=50:
+
+ print('baþarýlý')
+      
+ else:
+          
+   print('baþarýsýz')
+ython 3.12.0 (v3.12.0:0fb18b02c8, Oct  2 2023, 09:45:56) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
+Type "help", "copyright", "credits" or "license()" for more information.
+
+=================== RESTART: /Users/elifnur/Documents/233.py ===================
+ort=0
+y1=('1.yazýlý:')
+y2=('2.yazýlý:')
+SyntaxError: multiple statements found while compiling a single statement
+>>> ort=0
+... y1=int(input('1.yazýlý:'))
+... y2=int(input('2.yazýlý:'))
+SyntaxError: multiple statements found while compiling a single statement
+>>> 
+>>> Ort=0
+>>> Y1=int (input('1.yazýlý:'))
+1.yazýlý:90
+>>> Y2=int(input('2.yazýlý:'))
+2.yazýlý:100
+>>> Ort=(Y1+Y2)/2
+>>> print8'o
+SyntaxError: incomplete input
+>>> print('ortaalamanýz:',Ort)
+ortaalamanýz: 95.0
+>>> print('ortalamanýz')
+ortalamanýz…
+>>> print('btk'*4)
+btkbtkbtkbtk
+#alt program
+def topla():
+    global a
+    global b
+    a=5
+    b=6
+    return(a+b)
+def carpma():
+    return (a*b)
+
+def bolme ():
+    pass
+#ana program
+print (topla())
+print(carpma())
+print (bolme())
+print(a)
+print(b)
+for A in range(100):
+    if(A%7==0):
+        continue
+    print(A)
+Python 3.12.0 (v3.12.0:0fb18b02c8, Oct  2 2023, 09:45:56) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
+Type "help", "copyright", "credits" or "license()" for more information.
+for A in range(1,11):
+    for B in range(1,11):
+        print(A,'*',B,'='A*B)
+        
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+for A in range(1,11):
+    for B in range(1,11):
+        print(A,'*',B,'=',A*B)
+        print('\n')
+
+        
+1 * 1 = 1
+
+
+1 * 2 = 2
+
+
+1 * 3 = 3
+
+
+1 * 4 = 4
+
+
+1 * 5 = 5
+
+
+1 * 6 = 6
+
+
+1 * 7 = 7
+
+
+1 * 8 = 8
+
+
+1 * 9 = 9
+...
+def dolar(Tl):
+    return (Tl/29)
+#dolar=lambda Tl:Tl/29
+Tl=int (input('Türk lirasý giriniz'))
+print(Tl,'Türk lirasý=',dolar(Tl),'Dolar')
+masaNo=0
+liste=['ali','can','berk']
+liste2=['meryem','aslý']
+isim=input('isminiz nedir')
+if isim=='ali':
+    masaNo=5
+    if isim=='can':
+ masaNo=7
+ if isim=='berk':
+     masaNo=8
+    if isim in liste:
+        print(masaNo,'numaralý masada rezervasyonunuz var')
+         elif isim in liste2:
+             print('rezervasyonunuz bu gece deðil')
+                   elif isim not in liste and isim not in liste2:
+                       print('rezervasyonunuz yok')
+ython 3.12.0 (v3.12.0:0fb18b02c8, Oct  2 2023, 09:45:56) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+==================== RESTART: /Users/elifnur/Documents/p.py ====================
+>>> isim=input('isminiz:')
+isminiz:Elif Nur
+>>> print('isim:',isim)
+isim: Elif Nur
+>>> type(isim)
+<class 'str'>
+>>> yas=int(input('yasýnýz.:'))
+yasýnýz.:19
+>>> type(yas)
+<class 'int'>
+>>> sinif=float(input('kaça gidiyorsun'))
+kaça gidiyorsun5
+>>> type(float)
+<class 'type'>
+class Araba(marka):
+    model=marka
+    def metot(self):
+        self.marka='mercedes'
+
+        
+Traceback (most recent call last):
+  File "<pyshell#75>", line 1, in <module>
+    class Araba(marka):
+NameError: name 'marka' is not defined
+
+
+def a():
+    pass
+
+class araba:
+    pass
+
+class hayvan(cins):
+def dolar(Tl):
+    return (Tl/29)
+#dolar=lambda Tl:Tl/29
+Tl=int (input('Türk lirasý giriniz'))
+print(Tl,'Türk lirasý=',dolar(Tl),'Dolar')
+#kýsa kodunu yazdýk
+liste=['ali','veli','can']
+print(liste)
+A=3
+print(A)
+b=2
+print(b)
+print(A+b)
+toplam=A+b
+print(toplam)
+A=b=0
+print(A)
+print(b)
+
+A=10
+B=30
+
+A,B=B,A
+
+print(A)
+30
+print(B)
+
+C=A
+A=B
+B=C
+print(A)
+
+
+Cep=0
+Cep=Cep+10
+Cep=Cep+20
+Cep=Cep+30
+Cep=Cep+40
+print(Cep)
+
+Toplam=A+B
+print(Toplam)
+
+print ('Muberra')
+print('iyi geceler')
+
+A=9
+B=15
+print(A,'+',B,'=',A+B)
+print(A,'*',B,'=',A*B)
+X=(2*2+3/5)/(3*2-2*5)
+print(X)
+
+cep=0
+cep=cep+10
+print(cep)
+
+cep+=10
+print(cep)
+cep-=10
+print (cep)
+cep/=2
+print(cep)
+
+
+
+A=True
+A='True'
+A=3
+A=3.0
+
+A=3
+B=4.5
+type(A)
+
+type(B)
+A=(4>3)
+print(A)
+print(3==3)
+
+int(9.6)
+9
+print(int)
+str(4)+str(4)
+print('str(4)''+' 'str(4)')
+'44'
+int(10.45)#10.45 sayýsýnýn int veri tipine dönüþtür
+10
+float(45)#45 int deðer veri tipini floata dönüþtür
+#X,Y,Z ismindeki 3 farklý deðiþkene 'BT K' atamasý yapýnýz
+X=Y=Z'BT K'
+
+#Bir deðiþkenin tipini öðrenmek için hnagi komut kullanýlýr
+#type(X)
+
+i=0
+j=0
+i=i+j
+#Bu kod satýrýný daha kýsa yazar mýsýn
+i=+j
+#B ve C ismindeki iki deðiþkenin içeriklerinin birbirine atayan tek satýrlýk kodu yazýnýz
+B=0
+C=5
+B,C=C,B
+
+t=20+15-10
+x=t/4+7
+#Bu iþlemler sonucunda x kaç çýkar .Ekrana yazdýrýnýz
+print(x)
+#Bu iþlemler sonucunda x kaç çýkar .Ekrana yazdýrýnýz
+print(x)
+13.25
+#float
+
+#Python dilinde komut olarak kullanýlan anahtar keliemeler deðiþken ismi olarak kullanýlamazlar .Python dilindeki anahtar kelimeleri yazdýran kodlar nelerdir?
+import keyword
+keyword.kwlist
+
+#
+Python 3.12.0 (v3.12.0:0fb18b02c8, Oct  2 2023, 09:45:56) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
+Type "help", "copyright", "credits" or "license()" for more information.
+list(range(0,5))
+[0, 1, 2, 3, 4]
+for  x  in range (1,30)
+SyntaxError: incomplete input
+for  x  in range (1,30):
+    if (x%2==1):
+        print(x)
+
+        
+1
+3
+5
+7
+9
+11
+13
+15
+17
+19
+21
+23
+25
+27
+29
+>>> for in range(1,2,30):
+...     
+SyntaxError: invalid syntax
+>>> for  a in range(1,2,30):
+...     print(a)
+... 
+...     
+1
+>>> 
+>>> 
+>>> 
+>>> for a int range(1,30,2):
+...     
+
+>>> for a in range(1,30,2):
+...     print(a)
+...
+1
+3
+5
+7
+9
+11
+13
+15
+17
+19
+21
+23
+25
+27
+29
+Python 3.12.0 (v3.12.0:0fb18b02c8, Oct  2 2023, 09:45:56) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
+Type "help", "copyright", "credits" or "license()" for more information.
+range(0,5)
+range(0, 5)
+
+range(5)
+range(0, 5)
+range(99)
+range(0, 99)
+>>> range(12,23)
+range(12, 23)
+>>> range(11,3)
+range(11, 3)
+>>> range(1,10,2)
+range(1, 10, 2)
+>>> range(15,3,-4)
+range(15, 3, -4)
+>>> for a in range(0,5):
+...     print(a)
+... 
+...     
+0
+1
+2
+3
+4
+>>> for a in range(1,10,2):
+...     print(a)
+... 
+...     
+1
+3
+5
+7
+9
+>>> for a in range(15,3,-4):
+... 
+... print(a)
+>>> 
+... for a in range(15,3,-4):
+...     print(a)
+... 
+...     
+15
+11
+7
+#alt program
+def topla():
+    global a
+    global b
+    a=5
+    b=6
+    return(a+b)
+def carpma():
+    return (a*b)
+
+def bolme ():
+    pass
+#ana program
+print (topla())
+print(carpma())
+print (bolme())
+print(a)
+print(b)
+Python 3.12.0 (v3.12.0:0fb18b02c8, Oct  2 2023, 09:45:56) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> while (A!=0):
+...     print(A)
+... 
+...     
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    while (A!=0):
+NameError: name 'A' is not defined
+>>> 
+>>> X=1
+>>> print('çýkýþ için sýfýra bas')
+çýkýþ için sýfýra bas
+>>> while(X!=0):
+...     X= int (input('sayý giriniz'))
+...     print('sayýnýn karesi=',X*X)
+... 
+...     
+sayý giriniz30
+sayýnýn karesi= 900
+sayý giriniz0
+sayýnýn karesi= 0
+>>>
